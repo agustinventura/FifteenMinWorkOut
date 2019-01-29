@@ -1,7 +1,8 @@
 function hideAllScreens() {
 	$("#welcomeScreen").hide();
 	$("#exerciseScreen").hide();
-	$("#setScreen").hide();
+	$("#countdownScreen").hide();
+	$("#pauseScreen").hide();
 	$("#endScreen").hide();
 }
 

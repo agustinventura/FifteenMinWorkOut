@@ -30,27 +30,27 @@
     </div>
     <div id="pauseScreen" class="clock">
         <div class="container">
-            <button id="endSession" class="btnleft">Si</button>
+            <button id="end" class="btnleft">Si</button>
             <div class="txt-pause">
                     Entrenamiento pausado<br/> ¿Salir?
             </div>
-            <button id="continueSession" class="btnright">No</button>
+            <button id="continue" class="btnright">No</button>
         </div>
     </div>
     <div id="exerciseScreen" class="clock">
         <div class="container">
             <div class="txt">
-                <div class="txt-title">
+                <div id="exercise" class="txt-exercise-title">
                     Ejercicio
                 </div>
                 <div class="txt-msg-bpm">
-					<span id="exerciseMinutes">00</span>:<span id="exerciseSeconds">00</span>
+					<span id="exerciseSeconds">00</span>&nbsp;sgs
 				</div>
                 <div class="txt-msg-bpm">
                     <span id="exerciseBPM">000</span>&nbsp;BPM
                 </div>
             </div>
-            <button id="setDone" class="btnbottom">Pausa</button>
+            <button id="exercisePause" class="btnbottom">Pausa</button>
         </div>
     </div>
     <div id="countdownScreen" class="clock">
@@ -61,10 +61,10 @@
                     <p id="nextExercise">Siguiente ejercicio</p>
                 </div>
                  <div class="txt-msg-countdown">
-                    <span id="countdown">0</span>
+                    <span id="countdownSeconds">0</span>
                 </div>
             </div>
-            <button id="restDone" class="btnbottom">Pausa</button>
+            <button id="countdownPause" class="btnbottom">Pausa</button>
         </div>
     </div>
     <div id="endScreen" class="clock">

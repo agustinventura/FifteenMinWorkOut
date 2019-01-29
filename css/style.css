@@ -128,6 +128,13 @@ body {
     text-align: center;
 }
 
+.txt-exercise-title {
+	font-weight: bold;
+    font-size: 32px;
+    width: 70%;
+    padding-left: 60px;
+}
+
 .txt-msg-bpm {
 	font-size: 38px;
 	font-weight: bold;
