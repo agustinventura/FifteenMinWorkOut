@@ -1,0 +1,148 @@
+body {
+	font-family: 'Arial';
+	font-weight: 100;
+	color: #CCCCCC;
+}
+
+.clock {
+	position: relative;
+	width: 360px;
+	height: 360px;
+	background-color: #010000;
+	border-radius: 50%;
+	overflow-x: hidden;
+}
+
+.container {
+	box-sizing: border-box;
+	display: flex;
+	display: -webkit-flex;
+	height: 100%;
+	width: 100%;
+	flex-direction: column;
+	flex-direction: -webkit-column;
+	align-items: center;
+	align-items: -webkit-center;
+	align-content: center;
+	align-content: -webkit-center;
+	justify-content: center;
+	justificy-content: -webkit-center;
+}
+
+.txt {
+	position: absolute;
+	top: 60px;
+	width: 100%;
+	text-align: center;
+	font-size: 28px;
+}
+
+.txt-title {
+	font-weight: bold;
+    font-size: 32px;
+    width: 70%;
+    padding-left: 60px;
+    padding-bottom: 20px;
+}
+
+.btnbottom {
+	box-sizing: border-box;
+	text-align: center;
+	color: #CCCCCC;
+	background: none;
+	background-color: #940315;
+	text-transform: uppercase;
+	border-radius: 50%;
+	margin: 0;
+	outline: 0;
+	position: absolute;
+	width: 100%;
+	font-size: 32px;
+	font-weight: bold;
+	padding: 20px;
+	top: 260px;
+	bottom: 0;
+	border-top: 1px solid #5C0009;
+	border-bottom: 0;
+}
+
+.btnbottom:hover {
+	background-color: #5C0009;
+}
+
+.btnleft {
+	box-sizing: border-box;
+    text-align: right;
+    color: #CCCCCC;
+    background: none;
+    background-color: #940315;
+    text-transform: uppercase;
+    border-radius: 50%;
+    margin: 0;
+    outline: 0;
+    position: absolute;
+    height: 100%;
+    width: 200px;
+    font-size: 32px;
+    font-weight: bold;
+    border-right: 1px solid #5C0009;
+    right: 270px;
+    padding-right: 40px;
+}
+
+.btnleft:hover {
+	background-color: #5C0009;
+}
+
+.btnright {
+	box-sizing: border-box;
+    text-align: left;
+    color: #CCCCCC;
+    background: none;
+    background-color: #940315;
+    text-transform: uppercase;
+    border-radius: 50%;
+    margin: 0;
+    outline: 0;
+    position: absolute;
+    height: 100%;
+    width: 200px;
+    font-size: 32px;
+    font-weight: bold;
+    border-left: 1px solid #5C0009;
+    left: 270px;
+    padding-left: 20px;
+}
+
+.btnright:hover {
+	background-color: #5C0009;
+}
+
+.txt-pause {
+	position: absolute;
+    top: 150px;
+    left: 90px;
+    font-size: 24px;
+    font-weight: bold;
+    width: 50%;
+    text-align: center;
+}
+
+.txt-msg-bpm {
+	font-size: 38px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+.txt-msg-countdown {
+	font-size: 46px;
+	font-weight: bold;
+}
+
+.txt-end {
+	position: absolute;
+	top: 100px;
+	width: 100%;
+	text-align: center;
+	font-size: 28px;
+}
