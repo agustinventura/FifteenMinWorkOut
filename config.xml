@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://yourdomain/FifteenMinWorkOut" version="1.0.0" viewmodes="maximized">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://www.digitalsingular.com/FifteenMinWorkOut" version="1.0.0" viewmodes="maximized">
     <tizen:application id="WVfF8AwYYx.FifteenMinWorkOut" package="WVfF8AwYYx" required_version="2.3.2"/>
+    <author href="http://www.digitalsingular.com" email="agustinventura@gmail.com">Agustín Ventura Carrasco</author>
     <content src="index.html"/>
+    <description xml:lang="es-es">¿No tienes tiempo para ir al gimnasio? No te preocupes, con esta rutina de 15 minutos sin equipamiento podrás trabajar todo el cuerpo rápidamente en cualquier lugar.</description>
     <feature name="http://tizen.org/feature/screen.size.all"/>
     <icon src="icon.png"/>
     <name>FifteenMinWorkOut</name>
+    <name xml:lang="es-es">15 Min Workout</name>
     <tizen:privilege name="http://tizen.org/privilege/healthinfo"/>
     <tizen:privilege name="http://tizen.org/privilege/power"/>
     <tizen:profile name="wearable"/>

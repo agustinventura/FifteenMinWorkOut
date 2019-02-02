@@ -36,10 +36,10 @@ function goBack(activeDivId) {
 			exit();
 			break;
 		case "exerciseScreen":
-			showPauseScreen(activeDivId);
+			exercisePause(activeDivId);
 			break;
 		case "countdownScreen":
-			showPauseScreen(activeDivId);
+			countdownPause(activeDivId);
 			break;
 		case "endScreen":
 			exit();
